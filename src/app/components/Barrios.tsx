@@ -43,7 +43,9 @@ const Barrios = () => {
     fetchBarrios();
   }, []);
 
-  
+  if (error) {
+    return <div className="text-red-500">{error}</div>;
+  }
   return (
     
       <Select
