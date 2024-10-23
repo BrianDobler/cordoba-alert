@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = defineConfig({
-    output: "server",
-    adapter: vercel(),
-    integrations: [React(), tailwind()]
-});
+const nextConfig = {};
 
 export default nextConfig;
